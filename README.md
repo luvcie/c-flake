@@ -14,20 +14,21 @@
 
 Cheatsheet:
 
+### Start development environment
 nix develop
 
-# (create a build directory)
+### Create a build directory
 mkdir build
 cd build
 
-# (generate project files via cmake)
+### Generate project files via cmake
 cmake ..
 
-# (compile project)
+### Compile project
 make .
 
-# (run project)
+### Run project
 ./untitled-c-project
 
-# (run unit tests)
+### Run unit tests
 ./unit-tests
