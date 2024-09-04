@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "googletest": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687977907,
+        "narHash": "sha256-tOezXkZJYzxBTe4qArG9hXaR00T5i7MXi5ppJJmOKP8=",
+        "ref": "refs/heads/main",
+        "rev": "687c589949eaf8734484491a6882a7fc56aebc12",
+        "revCount": 4257,
+        "type": "git",
+        "url": "https://github.com/google/googletest"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/google/googletest"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1687203049,
+        "narHash": "sha256-T5NeXLvVWsOiOG+2q5TQWniWGNkIsCOGoHiDsB2DpUo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "e9e3f2e7362aba3ef709173d1777f0b893fc0ebf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "googletest": "googletest",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
