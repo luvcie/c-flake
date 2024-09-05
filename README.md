@@ -27,10 +27,6 @@ Cheatsheet:
 ### Start development environment
 nix develop
 
-### Create a build directory
-mkdir build
-cd build
-
 ### Generate project files via cmake
 cmake ..
 
