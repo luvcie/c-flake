@@ -1,6 +1,7 @@
 { lib
 , llvmPackages
 , cmake
+, gcc
 , googletest
 }:
 
@@ -19,6 +20,7 @@ llvmPackages.stdenv.mkDerivation rec {
   # Developer-time dependencies
   nativeBuildInputs = [
     cmake
+    gcc
   ];
 
   # Compile-time and run-time dependencies
